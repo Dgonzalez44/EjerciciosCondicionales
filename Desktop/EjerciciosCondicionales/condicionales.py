@@ -29,3 +29,21 @@ else:
 		t = Valor * 0.15
 print( f"Total a pagar con descuento  incluido es: $,{Valor - t}" )
 print (f"Descuento aplicado es: $ ,{t}" )
+
+
+# Ejercicio #3
+Valor = int (input( " Ingrese el monto a financiar" ))
+
+Numero = int (input ( "Digite un numero:"  ))
+	
+if Valor > 50000:
+
+		t = Valor*0.02
+else:
+		t = Valor*0.03
+print (f"Interes a pagar es: $  {t} " )
+print (f"Cuota total a pagar es: $ {Valor + t}")
+
+
+# Ejercicio #4
+
