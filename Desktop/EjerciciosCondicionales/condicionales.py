@@ -123,3 +123,30 @@ print (f" Total a  Credito: $ {cre}" )
 print (f"Interes: $ {i} " )
 
 
+# Ejercicio #9
+A = float (input ("Ingrese Primer número " ))
+B = float (input ("Ingrese Segundo número " ))	
+if  A == B:
+    R = ( A * B )
+    print (f"El resultado es : {R} " )
+elif A > B:
+    R = (A - B)
+    print (f"El resultado es : {R} " )
+elif B > A:
+    R = (A + B)
+    print (f"El resultado es : {R} " )
+    
+    
+  # Ejercicio #10
+Num = int ( input ("Ingrese el primer numero" ))
+Num2 = int (input ("Ingrese el segundo numero" ))
+Num3 = int (input ("Ingrese el tercer numero" ))
+
+if Num>Num2 and Num>Num3:
+		r = Num
+	
+if Num2>Num and Num2>Num3:
+			r = Num2
+else:
+			r = Num3
+print (f"El numero mayor es:  {r} ")  
