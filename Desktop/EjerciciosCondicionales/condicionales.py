@@ -137,7 +137,7 @@ elif B > A:
     print (f"El resultado es : {R} " )
     
     
-  # Ejercicio #10
+ # Ejercicio #10
 Num = int ( input ("Ingrese el primer numero" ))
 Num2 = int (input ("Ingrese el segundo numero" ))
 Num3 = int (input ("Ingrese el tercer numero" ))
