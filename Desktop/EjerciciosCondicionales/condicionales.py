@@ -102,3 +102,24 @@ if (Marca == "Nosy"):
 		valorfinal = valorfinal-(Valor*0.05)
 print (f"El Valor total del Producto es: $ {valorfinal} " )
 
+
+# Ejercicio #8
+Piezas = int (input ( "Ingrese Numero De Piezas" ))
+Valor = int ( input ("Ingrese valor Por Pieza" ))
+
+t = Piezas * Valor
+if t>500000:
+		i = t*0.55
+		d = t*0.30
+		cre = t*0.15
+else:
+		i = t*0.70
+		d = 0
+		cre = t*0.30
+	   
+print (f" Total a Invertir: $ {i} " )
+print (f" Total a  Prestamo: $ {d} " )
+print (f" Total a  Credito: $ {cre}" )
+print (f"Interes: $ {i} " )
+
+
