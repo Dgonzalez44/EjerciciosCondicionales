@@ -61,3 +61,30 @@ print (f"Pérdida de dinero por la revision es: $ { m } " )
 
 
 # Ejercicio #5
+Auto = int (input ("Ingresar el precio del auto y del Terreno "))
+I = int (input ("Ingresar el incremento anual del Terreno: %" ))
+E = int (input ( "Ingresar el decremento anual del auto: %" ))
+
+T = (((Auto * I ) / 100)*3)/2
+E = ((Auto*E)/100)*3
+
+print (f"La mitad del incremento deL Terreno en 3 años es: {I}" )
+print (f"El decremento del auto en 3 años es: $ {E}" )
+if E<I:
+    print("Es conveniente comprar el auto" )
+else:
+    print( "Es conviente comprar el Terreno")
+    
+  
+# Ejercicio #6
+Pc = int ( input ("Ingresar la cantidad de computadoras compradas" ))
+
+t = Pc*11000
+if Pc<5:
+  d = t*0.10
+if Pc<10:
+ d = t*0.20
+else:
+ d = t*0.40
+print (f" Total a pagar por computadoras compradas es: $ {t-d} " )
+print (f"El descuento es: $ {d} " )
