@@ -16,3 +16,16 @@ else:
 print(f"el total a pagar: ${v-t}")
 print(f"el descuento aplicado es: ${t}")
 
+
+# Ejercicio #2
+Valor = int (input (" Ingrese el valor total de la compra "))
+	
+Numero = int (input(" Ingrese el numero escogido " ))
+
+
+if Numero >= 74:
+		t = Valor * 0.20
+else:
+		t = Valor * 0.15
+print( f"Total a pagar con descuento  incluido es: $,{Valor - t}" )
+print (f"Descuento aplicado es: $ ,{t}" )
