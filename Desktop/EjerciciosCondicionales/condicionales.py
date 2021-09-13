@@ -46,4 +46,18 @@ print (f"Cuota total a pagar es: $ {Valor + t}")
 
 
 # Ejercicio #4
+Dias = int (input ("Ingresa los puntos de la fabrica de cada uno de los días"))
+    
+	
+Ganancia = int (input ("Ingresa las ganancias de los días"))
+	
+if Dias > 170:
+		m = Ganancia*0.05
+else:
+		m = 0
+print (f"Promedio de puntos de la fabrica es: {Dias} " )
+print (f"Ganancia  de una semana de la fabrica es: $ {Ganancia} " )
+print (f"Pérdida de dinero por la revision es: $ { m } " )
 
+
+# Ejercicio #5
