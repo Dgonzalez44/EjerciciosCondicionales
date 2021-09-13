@@ -88,3 +88,17 @@ else:
  d = t*0.40
 print (f" Total a pagar por computadoras compradas es: $ {t-d} " )
 print (f"El descuento es: $ {d} " )
+
+
+# Ejercicio #7
+Marca = input ("Ingrese la marca ")
+Valor = int ( input(" Ingrese el Valor del producto " ))
+
+if Valor>=2000:
+	valorfinal = Valor - (Valor*0.10)
+else:
+		valorfinal = Valor + (Valor*0.16)
+if (Marca == "Nosy"):
+		valorfinal = valorfinal-(Valor*0.05)
+print (f"El Valor total del Producto es: $ {valorfinal} " )
+
